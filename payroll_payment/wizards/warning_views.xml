@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="warning_view_form" model="ir.ui.view">
+        <field name="name">warning.view.form</field>
+        <field name="model">warning</field>
+        <field name="arch" type="xml">
+            <form string="Warning">
+                <sheet>
+                    <p> Ha excedido el presupuesto de la nómina <field name="payroll_payment_id" readonly="1"/> en un monto <field name="symbol"/><field name="amount"/>. Por favor, verifique el presupuesto de la nómina. </p>
+                </sheet>
+                <footer></footer>
+            </form>
+        </field>
+    </record>
+</odoo>

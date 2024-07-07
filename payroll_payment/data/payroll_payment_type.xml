@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pago_proveedores" model="payroll.payment.type">
+        <field name="name">Pago de proveedores</field>
+    </record>
+    <record id="remuneraciones" model="payroll.payment.type">
+        <field name="name">Remuneraciones </field>
+    </record>
+    <record id="retenciones_judiciales" model="payroll.payment.type">
+        <field name="name">Retenciones judiciales</field>
+    </record>
+    <record id="varios" model="payroll.payment.type">
+        <field name="name">Varios</field>
+    </record>
+</odoo>

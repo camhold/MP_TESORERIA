@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_res_bank_form_inherit_payroll_payment" model="ir.ui.view">
+        <field name="name">res.bank.view.form.inherit</field>
+        <field name="model">res.bank</field>
+        <field name="inherit_id" ref="base.view_res_bank_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='email']" position="after">
+                <field name="payroll_code"/>
+                <field name="format_template_xlsx"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

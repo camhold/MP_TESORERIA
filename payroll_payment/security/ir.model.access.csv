@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_payroll_payment_group_name,payroll.payment.account.group_account_invoice,model_payroll_payment,account.group_account_invoice,1,1,1,1
+access_payroll_payment_wizard_all,payroll.payment.wizard.all,model_payroll_payment_wizard,,1,1,1,1
+access_warning_all,warning.all,model_warning,,1,1,1,1
+access_payroll_payment_line_all,payroll.payment.line.all,model_payroll_payment_line,,1,1,1,1
+access_account_move_observation_all,account.move.observation.all,model_account_move_observation,,1,1,1,1
+access_assign_flow_group_all,assign.flow.group.all,model_assign_flow_group,,1,1,1,1
+access_payroll_payment_type_all,payroll.payment.type.all,model_payroll_payment_type,,1,1,1,1
+
+
+
+

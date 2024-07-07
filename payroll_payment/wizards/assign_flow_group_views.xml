@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="assign_flow_group_view_form" model="ir.ui.view">
+        <field name="name">assign.flow.group.view.form</field>
+        <field name="model">assign.flow.group</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="mp_flujo_id" options="{'no_create': True}"/>
+                        </group>
+                        <group>
+                            <field name="mp_grupo_flujo_id" options="{'no_create': True}"/>
+                            <field name="mp_grupo_flujo_ids" invisible="1"/>
+                        </group>
+                    </group>
+                </sheet>
+                <footer>
+                    <button name="action_assign" string="Asignar" type="object" class="btn-primary" data-hotkey="q"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

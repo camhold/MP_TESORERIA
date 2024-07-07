@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_account_payment_form_inherit_payroll_payment" model="ir.ui.view">
+        <field name="name">account.payment.view.form.inherit</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_payment_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='group2']" position="inside">
+                <field name="mp_grupo_flujo_id" options="{'no_create': True}"/>
+                <field name="mp_flujo_id" options="{'no_create': True}"/>
+                <field name="mp_grupo_flujo_ids" invisible="1"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

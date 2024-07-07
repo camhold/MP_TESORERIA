@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_foreign_currency_centralization_all,foreign.currency.centralization.all,model_foreign_currency_centralization,,1,1,1,1
+access_foreign_currency_centralization_line_all,foreign.currency.centralization.line.all,model_foreign_currency_centralization_line,,1,1,1,1
